@@ -1,0 +1,21 @@
+
+{
+  "id": "#number",
+  "bucketBasePath": "#string",
+  "sftpUser": "#string",
+  "sftpHost": "#string",
+  "sftpPort": "#string",
+  "sftpSshPublicKey": "#string",
+  "sftpSshPrivateKey": "#string",
+  "remoteSftpOutPath": "#string",
+  "remoteSftpInPath": "#string",
+  "remoteSftpProcessedPath": "/OUT/PROCESSED",
+  "bicePgpPrivateKey": "#string",
+  "bicePgpPublicKey": "#string",
+  "userPgpPrivateKey": "#string",
+  "userPgpPublicKey": "#string",
+  "pgpBaseFileName": "#string",
+  "appUser": "#string",
+  "idAppUser": "#string"
+}
+

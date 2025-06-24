@@ -1,0 +1,8 @@
+[
+  {
+    "testCase": "MS-USERS - VALIDAR RESPUESTA DE SERVICIO  AL USAR UN UN METODO NO SOPORTADO",
+    "pruebaUri": "josh.!&/()",
+    "mensaje": "Not Found",
+    "idAzure": "131720"
+  }
+]

@@ -1,0 +1,28 @@
+17:52:40.475 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @msUsers_config_404
+17:52:40.519 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': qa
+17:52:41.029 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:52:41.546 [main] DEBUG com.intuit.karate - key store key count for classpath:integration/cert/qaApigeeCertificate.p12: 1
+17:52:41.585 [main] INFO  com.intuit.karate - [33;1mWARN: karate.env system property set:[0m [92;1mqa[0m 
+17:52:41.587 [main] INFO  com.intuit.karate - [33;1mWARN: karate.DProvider system property set call Data Provider:[0m [92;1mtrue[0m 
+17:52:41.593 [main] INFO  com.intuit.karate - [33;1mFavor revisar que la variable {data_provider_id}, se encuentre presente en el archivo: [0m env_qa.json 
+17:52:41.637 [main] DEBUG com.intuit.karate - request:
+1 > GET https://apiqa-connect.bice.cl/ms-users/v1/v1/users/josh.!&/()/config
+1 > Host: apiqa-connect.bice.cl
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.24)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:52:42.569 [main] DEBUG com.intuit.karate - response time in milliseconds: 929
+1 < 404
+1 < vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+1 < content-type: application/json
+1 < server-timing: intid;desc=6a4ab45cec352219
+1 < date: Mon, 23 Jun 2025 21:52:42 GMT
+1 < x-envoy-upstream-service-time: 5
+1 < server: istio-envoy
+1 < transfer-encoding: chunked
+{"timestamp":"2025-06-23T21:52:42.703+00:00","status":404,"error":"Not Found","path":"/v1/users/josh.!&/()/config"}
+
+17:52:42.962 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 8 (0 remaining) classpath:integration/feature/bulkPayments/msUsers/v1/usersConfig.feature
+17:52:42.969 [main] DEBUG com.intuit.karate.Suite - waiting for 8 features to complete

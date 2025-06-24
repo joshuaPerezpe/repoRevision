@@ -1,0 +1,2 @@
+Se deben agregar los nuevos los host en el env.json del ambiente que corresponda. Estos deben ser incorporados al objeto host -> "nombreHost":"https://qamova.bice.cl".
+

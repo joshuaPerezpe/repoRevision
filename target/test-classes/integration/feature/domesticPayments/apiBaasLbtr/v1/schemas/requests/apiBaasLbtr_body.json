@@ -1,0 +1,38 @@
+{
+  "payment_id": "7dc75e99-9080-483c-8a9f-1f31bf0ab4a2",
+  "description": "detalle prueba",
+  "initiation": {
+    "debtor_account": {
+      "name": "EMPRESA NERUDA",
+      "id": "0965965408",
+      "email": "ordenante@test.cl",
+      "account_id": "1255606",
+      "account_type": "CORRIENTE",
+      "bank_id": "0028"
+    },
+    "creditor_account": {
+      "name": "CRISTIAN GUTIERREZ",
+      "id": "0126415265",
+      "email": "benef@test.cl",
+      "account_id": "1881132",
+      "account_type": "CORRIENTE",
+      "bank_id": "0028"
+    },
+    "instructed_amount": {
+      "amount": 1,
+      "currency": "CLP"
+    },
+    "signature": [
+      {
+        "id": "0054743580",
+        "name": "JUAN PEREZ",
+        "authentication_type": "NO_AUTH"
+      },
+      {
+        "id": "0062272562",
+        "name": "JUAN PEREZ DOS",
+        "authentication_type": "NO_AUTH"
+      }
+    ]
+  }
+}
