@@ -1,0 +1,14 @@
+[
+  {
+    "idTestJira": "",
+    "testCase": "API-BASS-TEF-LBTR - POST - VALIDAR RESPUESTA AL INGRESAR METODO DISTINTO AL SOPORTADO POR EL SERVICIO",
+    "status": "404",
+    "method": "put",
+    "header": "{'x-channel':'<x-channel>','Content-Type':'<Content-Type>'}",
+    "x-channel": "ConnectX",
+    "Content-Type": "application/json",
+    "statusResponse": "Error in request",
+    "messageResponse": "is not supported",
+    "idAzure": "73914"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "idTestJira": "",
+    "testCase": "API-BASS-TEF-LBTR - POST - VALIDAR RESPUESTA AL MODIFICAR URI DEL ENDPOINT Y VER RESPUESTA DEL SERVICIO",
+    "status": "404",
+    "header": "{'x-channel':'<x-channel>','Content-Type':'<Content-Type>'}",
+    "x-channel": "ConnectX",
+    "Content-Type": "application/json",
+    "statusResponse": "Error in request",
+    "messageResponse": "Request url not supported",
+    "idAzure": "73908"
+  }
+]

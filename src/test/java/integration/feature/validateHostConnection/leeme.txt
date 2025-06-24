@@ -1,0 +1,1 @@
+Este feature es solo para agregar los host y validar que este conectando correctamente desde la vm, para ver si tenemos algún bloqueo o necesidad de levantar una regla de firewall

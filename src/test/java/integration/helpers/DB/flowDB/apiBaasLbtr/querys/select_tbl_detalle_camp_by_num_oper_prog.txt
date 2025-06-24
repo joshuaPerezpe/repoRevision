@@ -1,0 +1,3 @@
+select rr2.*, (select rr3.nom_campo from tbl_campos_op rr3 where rr2.cod_campo=rr3.cod_campo)
+as nombre_campo from tbl_detalle_camp rr2
+where rr2.num_oper_prog = '<operprog>'
