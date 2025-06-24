@@ -1,0 +1,33 @@
+{
+  "payment_id": "7dc75e99-9080-483c-8a9f-1f31bf0ab4a2",
+  "description": "detalle prueba",
+  "initiation": {
+    "debtor_account": {
+      "name": "EMPRESA NERUDA",
+      "JOSHUA": "078310380K",
+      "email": "ordenante@test.cl",
+      "account_id": "7014724",
+      "account_type": "CORRIENTE",
+      "bank_id": "0028"
+    },
+    "creditor_account": {
+      "name": "SILVA ABOGADOS y COMPANIA LIMITADA",
+      "id": "0070337371",
+      "email": "benef@test.cl",
+      "account_id": "123456789012345",
+      "account_type": "CORRIENTE",
+      "bank_id": "0012"
+    },
+    "instructed_amount": {
+      "amount": 1000,
+      "currency": "CLP"
+    },
+    "signature": [
+      {
+        "id": "0059262041",
+        "name": "JUAN PEREZ",
+        "authentication_type": "NO_AUTH"
+      }
+    ]
+  }
+}

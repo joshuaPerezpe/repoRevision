@@ -1,0 +1,26 @@
+Esta carpeta contiene:
+
+1- DB (Package):
+
+		a.  envDB (Package):
+           	  i. Config.json (File): Aquí se agregan las nuevas conexiones a BD con un arreglo este debe contener el siguiente formato:
+           	     Ejemplo: {nombreDB}_{segmento o usuario de conexión} en minúscula
+
+           	  ii. dbConnection.feature (File): Aquí va la pre configuración para conectarme a bd desde el feature
+
+           	  iii. DbUtils (File): NO tocar
+
+		b. flowBD (Package): debe contener lo siguiente:
+		        i. componente (Package): Debe estar en lower camel case -> bffAccount
+
+		            a. querys (Package):  Se debe crear un archivo por cada query declarada en el feature (lower camel case) -> select_obtenerRutsCtaCte.txt
+		             El formato del archivo debe ser el siguiente:
+		                i. Nombre con método de ejecución
+		                ii Descripción del flujo
+		             Nota: Debe tener formato .txt o .sql e ir separado por guion bajo
+
+		            b. componente.feature (File): Feature que interactua con la bd y es donde se configuran las llamadas a las querys que utilizaremos en nuestros scenarios -> bffAccount.feature
+
+2- DP = Contiene el conector con el Data Provider. NO tocar
+
+3- steps = Contiene features, con pasos globales que podrian consumir varias features ( EJ creación de token, login, etc).

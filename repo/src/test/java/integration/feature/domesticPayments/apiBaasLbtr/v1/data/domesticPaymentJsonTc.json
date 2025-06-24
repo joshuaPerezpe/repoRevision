@@ -1,0 +1,13 @@
+[
+  {
+    "idTestJira": "",
+    "testCase": "API-BASS-TEF-LBTR - POST - VALIDAR RESPUESTA AL ROMPER LA ESTRUCTURA DEL JSON BODY Y VER QUE RESPODE EL SERVICIO",
+    "status": "400",
+    "header": "{'x-channel':'<x-channel>','Content-Type':'<Content-Type>'}",
+    "x-channel": "ConnectX",
+    "Content-Type": "application/json",
+    "statusResponse": "Error in request",
+    "messageResponse": "El request tiene elementos desconocidos",
+    "idAzure": "74031"
+  }
+]
