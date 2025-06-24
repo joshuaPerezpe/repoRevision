@@ -1,8 +1,0 @@
-
-{
-  "status": "#string",
-  "message": "#string",
-  "transaction_id": "#string",
-  "creation_date_time": "#string"
-}
-

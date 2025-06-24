@@ -1,1 +1,0 @@
-select * from tbl_oper_prog where num_oper_prog= '<operprog>'

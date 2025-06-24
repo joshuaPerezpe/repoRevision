@@ -1,8 +1,0 @@
-<testsuite failures="0" name="integration/feature/bulkPayments/msUsers/v1/usersConfig.feature" skipped="0" tests="1" time="0.980716"><testcase classname="integration.feature.bulkPayments.msUsers.v1.usersConfig" name="&lt;idTestJira&gt; _ MS-USERS - VALIDAR RESPUESTA DE SERVICIO  AL USAR UN UN METODO NO SOPORTADO" time="0.980716"><system-out>Given url host.connect .................................................... passed
-* def schema = read('classpath:integration/feature/bulkPayments/msUsers/v1/schemas/responses/usersConfig.json') . passed
-Given path 'ms-users','v1','v1','users','josh.!&amp;/()','config' ............. passed
-When method GET ........................................................... passed
-And status 404 ............................................................ passed
-And match response.error contains 'Not Found' ............................. passed
-</system-out></testcase>
-</testsuite>
